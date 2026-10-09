@@ -1,0 +1,3 @@
+/home/user/Projects/pomodoro_timer/build/CMakeFiles/ImGuiGlfwExample.dir
+/home/user/Projects/pomodoro_timer/build/CMakeFiles/edit_cache.dir
+/home/user/Projects/pomodoro_timer/build/CMakeFiles/rebuild_cache.dir
