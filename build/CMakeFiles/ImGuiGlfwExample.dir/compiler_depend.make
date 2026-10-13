@@ -1345,6 +1345,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o: /home/user/Projects/p
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/xtestintrin.h
 
 CMakeFiles/ImGuiGlfwExample.dir/main.cpp.o: /home/user/Projects/pomodoro_timer/main.cpp \
+  /home/user/Projects/pomodoro_timer/core/timer.hpp \
   /home/user/Projects/pomodoro_timer/imgui/backends/imgui_impl_glfw.h \
   /home/user/Projects/pomodoro_timer/imgui/backends/imgui_impl_opengl3.h \
   /home/user/Projects/pomodoro_timer/imgui/imconfig.h \
@@ -1354,29 +1355,132 @@ CMakeFiles/ImGuiGlfwExample.dir/main.cpp.o: /home/user/Projects/pomodoro_timer/m
   /usr/include/GL/glext.h \
   /usr/include/GLFW/glfw3.h \
   /usr/include/KHR/khrplatform.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm/bitsperlong.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm/posix_types.h \
+  /usr/include/asm/posix_types_64.h \
+  /usr/include/asm/types.h \
   /usr/include/assert.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/setjmp.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
   /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/error_t.h \
   /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/atomic \
+  /usr/include/c++/16/backward/binders.h \
+  /usr/include/c++/16/bits/atomic_base.h \
+  /usr/include/c++/16/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/16/bits/chrono.h \
+  /usr/include/c++/16/bits/cpp_type_traits.h \
+  /usr/include/c++/16/bits/exception.h \
+  /usr/include/c++/16/bits/exception_defines.h \
+  /usr/include/c++/16/bits/functional_hash.h \
+  /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/invoke.h \
+  /usr/include/c++/16/bits/memoryfwd.h \
+  /usr/include/c++/16/bits/move.h \
+  /usr/include/c++/16/bits/new_except.h \
+  /usr/include/c++/16/bits/parse_numbers.h \
+  /usr/include/c++/16/bits/postypes.h \
+  /usr/include/c++/16/bits/refwrap.h \
+  /usr/include/c++/16/bits/requires_hosted.h \
+  /usr/include/c++/16/bits/std_thread.h \
+  /usr/include/c++/16/bits/stl_function.h \
+  /usr/include/c++/16/bits/stl_pair.h \
+  /usr/include/c++/16/bits/stringfwd.h \
+  /usr/include/c++/16/bits/this_thread_sleep.h \
+  /usr/include/c++/16/bits/unique_ptr.h \
+  /usr/include/c++/16/bits/uses_allocator.h \
+  /usr/include/c++/16/bits/utility.h \
+  /usr/include/c++/16/bits/version.h \
+  /usr/include/c++/16/cerrno \
+  /usr/include/c++/16/chrono \
+  /usr/include/c++/16/cstdint \
+  /usr/include/c++/16/ctime \
+  /usr/include/c++/16/cwchar \
+  /usr/include/c++/16/debug/assertions.h \
+  /usr/include/c++/16/ext/numeric_traits.h \
+  /usr/include/c++/16/ext/type_traits.h \
+  /usr/include/c++/16/iosfwd \
+  /usr/include/c++/16/limits \
+  /usr/include/c++/16/new \
+  /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/ratio \
+  /usr/include/c++/16/thread \
+  /usr/include/c++/16/tuple \
+  /usr/include/c++/16/type_traits \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/sched/types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/linux/types.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
@@ -1444,23 +1548,83 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o:
 
 /usr/lib/libglfw.so.3.5:
 
-/usr/lib/libc.so.6:
-
 /usr/lib/libXdmcp.so.6:
 
 /usr/lib/libOpenGL.so:
-
-/usr/lib/libGLX.so:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
-
 /usr/lib/libm.so:
 
 /usr/lib/Scrt1.o:
+
+/usr/include/pthread.h:
+
+/usr/include/linux/types.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/lib/libc.so.6:
+
+/usr/include/c++/16/tuple:
+
+/usr/include/linux/sched/types.h:
+
+/usr/include/c++/16/cwchar:
+
+/usr/include/c++/16/cstdint:
+
+/usr/include/c++/16/cerrno:
+
+/usr/include/c++/16/bits/this_thread_sleep.h:
+
+/usr/include/c++/16/bits/stringfwd.h:
+
+/usr/include/c++/16/ctime:
+
+/usr/include/c++/16/bits/std_thread.h:
+
+/usr/include/c++/16/bits/postypes.h:
+
+/usr/include/c++/16/bits/parse_numbers.h:
+
+/usr/include/c++/16/bits/new_except.h:
+
+/usr/include/c++/16/bits/memoryfwd.h:
+
+/usr/include/c++/16/bits/hash_bytes.h:
+
+/usr/include/c++/16/bits/functional_hash.h:
+
+/usr/include/c++/16/bits/atomic_base.h:
+
+/usr/include/c++/16/new:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/lib/libGLX.so:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/asm/posix_types_64.h:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/c++/16/bits/uses_allocator.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
 
 /home/user/Projects/pomodoro_timer/ui/AppState.hpp:
 
@@ -1486,6 +1650,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/xmmintrin.h:
 
+/usr/include/c++/16/bits/chrono.h:
+
 /usr/include/inttypes.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/x86gprintrin.h:
@@ -1496,11 +1662,15 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/uintrintrin.h:
 
+/usr/include/c++/16/bits/unique_ptr.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/tsxldtrkintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/tmmintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/tbmintrin.h:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/smmintrin.h:
 
@@ -1528,7 +1698,11 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/pmmintrin.h:
 
+/usr/include/linux/stddef.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/pkuintrin.h:
+
+/usr/include/asm/types.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/pconfigintrin.h:
 
@@ -1570,6 +1744,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o:
 
 /usr/include/bits/flt-eval-method.h:
 
+/usr/include/linux/posix_types.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/xsavesintrin.h:
 
 /usr/include/bits/types/FILE.h:
@@ -1579,6 +1755,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o:
 /usr/lib32/libXdmcp.so.6:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/avx512vlintrin.h:
+
+/usr/include/bits/setjmp.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h:
 
@@ -1592,11 +1770,17 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o:
 
 /home/user/Projects/pomodoro_timer/imgui/imgui.h:
 
+/usr/include/bits/errno.h:
+
 /usr/include/c++/16/cstdlib:
+
+/home/user/Projects/pomodoro_timer/core/timer.hpp:
 
 /usr/include/bits/timesize.h:
 
 /usr/include/bits/waitflags.h:
+
+/usr/include/bits/cpu-set.h:
 
 /usr/include/bits/dlfcn.h:
 
@@ -1666,6 +1850,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/stdio.h:
 
+/usr/include/c++/16/chrono:
+
 /usr/include/X11/Xfuncproto.h:
 
 /usr/include/bits/types/struct_timespec.h:
@@ -1679,6 +1865,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/bits/environments.h:
+
+/usr/include/c++/16/bits/refwrap.h:
 
 /usr/include/bits/mathcalls-narrow.h:
 
@@ -1706,6 +1894,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/bits/endian.h:
 
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/wchar.h:
@@ -1726,6 +1916,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/c++/16/bits/stl_pair.h:
 
+/usr/include/c++/16/bits/exception.h:
+
 /usr/include/endian.h:
 
 /usr/include/stdint.h:
@@ -1745,6 +1937,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 /home/user/Projects/pomodoro_timer/imgui/backends/imgui_impl_glfw.cpp:
 
 /usr/include/c++/16/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/16/thread:
 
 /usr/include/X11/extensions/Xrandr.h:
 
@@ -1788,6 +1982,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 
 /home/user/Projects/pomodoro_timer/imgui/imconfig.h:
 
+/usr/include/c++/16/iosfwd:
+
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/include/c++/16/stdlib.h:
@@ -1824,9 +2020,13 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/bits/types/__mbstate_t.h:
 
+/usr/include/asm/posix_types.h:
+
 /usr/include/bits/time.h:
 
 /usr/include/sys/types.h:
+
+/usr/include/c++/16/atomic:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/amxtf32intrin.h:
 
@@ -1841,6 +2041,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/vpclmulqdqintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h:
+
+/usr/include/errno.h:
 
 /usr/include/bits/getopt_posix.h:
 
@@ -1858,6 +2060,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 
 /usr/include/bits/select.h:
 
+/usr/include/c++/16/bits/invoke.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/amxmovrsintrin.h:
 
 /usr/include/c++/16/bits/stdexcept_throwfwd.h:
@@ -1867,6 +2071,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o:
 /usr/include/bits/stdint-least.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/asm/errno.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h:
 
@@ -1892,6 +2098,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o:
 
 /usr/include/bits/siginfo-consts.h:
 
+/usr/include/bits/types/mbstate_t.h:
+
 /usr/include/bits/signal_ext.h:
 
 /usr/include/c++/16/bits/exception_defines.h:
@@ -1903,6 +2111,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o:
 /usr/include/sys/ucontext.h:
 
 /usr/include/bits/sigstksz.h:
+
+/usr/include/c++/16/ratio:
 
 /usr/include/bits/sigthread.h:
 
@@ -1942,6 +2152,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o:
 
 /usr/include/signal.h:
 
+/usr/include/bits/sched.h:
+
 /usr/include/features.h:
 
 /usr/include/bits/types/__FILE.h:
@@ -1968,9 +2180,15 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o:
 
 /usr/include/c++/16/debug/assertions.h:
 
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
 /usr/include/c++/16/debug/debug.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/avx512vnnivlintrin.h:
+
+/usr/include/wchar.h:
 
 /usr/include/bits/posix1_lim.h:
 
@@ -2002,6 +2220,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o:
 
 /usr/include/c++/16/tr1/gamma.tcc:
 
+/usr/include/sched.h:
+
 /usr/include/bits/fp-fast.h:
 
 /usr/include/GLFW/glfw3native.h:
@@ -2021,6 +2241,8 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/emmintrin.h:
+
+/usr/include/bits/types/error_t.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/mwaitintrin.h:
 
@@ -2081,6 +2303,8 @@ CMakeFiles/ImGuiGlfwExample.dir/main.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/avx512vpopcntdqvlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/avx512bf16vlintrin.h:
+
+/usr/include/c++/16/bits/atomic_lockfree_defines.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/avx512bitalgvlintrin.h:
 

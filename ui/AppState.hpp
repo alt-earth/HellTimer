@@ -1,5 +1,6 @@
 #include "imgui/imgui.h"
 #include <GLFW/glfw3.h>
+#include "core/timer.hpp"
 
 enum class AppState{
     MAIN
@@ -7,9 +8,8 @@ enum class AppState{
 
 
 namespace WindowState{
-
-    inline void RenderMainState(GLFWwindow* window){
-        ImGui::Spacing();
-        ImGui::Text("hello world");
+    inline void RenderMainState(GLFWwindow* window, Timer& time){
+        int seconds = time.getSeconds();
+        ImGui::Text("seconds: %d", seconds);
     }
 };

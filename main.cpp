@@ -4,9 +4,10 @@
 #include "imgui/backends/imgui_impl_glfw.h"
 #include "imgui/backends/imgui_impl_opengl3.h"
 #include "ui/AppState.hpp"
+#include "core/timer.hpp"
 
-#define WIDTH 800
-#define HEIGHT 600
+#define WIDTH 400
+#define HEIGHT 300
 
 int main(){
 
@@ -38,7 +39,8 @@ int main(){
     ImGui_ImplOpenGL3_Init();
 
     AppState currentState = AppState::MAIN;
-
+    Timer time;
+    time.start();
 
     while(!glfwWindowShouldClose(window)){
         glfwWaitEventsTimeout(0.1);
@@ -65,7 +67,7 @@ int main(){
         ImGui::Begin("Background", nullptr, window_flags);
         switch (currentState) {
             case AppState::MAIN:
-                WindowState::RenderMainState(window);
+                WindowState::RenderMainState(window,time);
                 break;
         }
         ImGui::End();
@@ -79,7 +81,7 @@ int main(){
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
-
+    time.stop();
     glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
