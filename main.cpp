@@ -39,7 +39,6 @@ int main(){
 
     AppState currentState = AppState::MAIN;
     Timer time;
-    time.start();
 
     while(!glfwWindowShouldClose(window)){
         glfwWaitEventsTimeout(0.1);

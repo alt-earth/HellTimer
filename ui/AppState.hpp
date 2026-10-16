@@ -12,5 +12,9 @@ namespace WindowState{
         int seconds = time.getSeconds();
         int minutes = time.getMinutes();
         ImGui::Text("%02d:%02d", minutes, seconds);
+
+        if(ImGui::Button("Старт")){
+            time.start();
+        }
     }
 };
