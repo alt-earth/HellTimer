@@ -10,6 +10,7 @@ enum class AppState{
 namespace WindowState{
     inline void RenderMainState(GLFWwindow* window, Timer& time){
         int seconds = time.getSeconds();
-        ImGui::Text("seconds: %d", seconds);
+        int minutes = time.getMinutes();
+        ImGui::Text("%02d:%02d", minutes, seconds);
     }
 };

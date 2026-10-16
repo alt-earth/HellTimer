@@ -39,7 +39,7 @@ public:
     void start(){
         if (!isRunning.load()){
             isRunning.store(true);
-            timerThread = std::thread(&Timer::run,this);
+            timerThread = std::thread(&Timer::run, this);
         }
     }
 
@@ -53,7 +53,10 @@ public:
     }
 
     int getSeconds() const {
-        return seconds.load();
+        return seconds.load() % 60;
+    }
+    int getMinutes() const {
+        return seconds.load() / 60;
     }
 
 };
