@@ -2,6 +2,7 @@
 #include <chrono>
 #include <atomic>
 #include <thread>
+#include <string>
 class Timer{
 private:
         std::atomic<int>countToRelax{0};
@@ -57,6 +58,12 @@ public:
     }
     int getMinutes() const {
         return seconds.load() / 60;
+    }
+    std::string getStatus() const {
+        return isRelaxed ? "Relax" : "Work";
+    }
+    bool isStarted() const{
+        return isRunning;
     }
 
 };
