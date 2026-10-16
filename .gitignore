@@ -5,9 +5,7 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 
-# Локальные конфиги интерфейса
 imgui.ini
 
-# Специфичные файлы систем (если вдруг появятся)
 .DS_Store
 Thumbs.db
