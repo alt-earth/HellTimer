@@ -31,7 +31,7 @@ int main(){
     ImGuiIO& io = ImGui::GetIO();
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
     io.Fonts->AddFontFromFileTTF("/usr/share/fonts/noto/NotoSans-Regular.ttf",
-                                18.0f, nullptr,
+                                25.0f, nullptr,
                                 io.Fonts->GetGlyphRangesCyrillic());
 
     ImGui_ImplGlfw_InitForOpenGL(window, true);

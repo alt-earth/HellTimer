@@ -62,8 +62,11 @@ public:
     std::string getStatus() const {
         return isRelaxed ? "Relax" : "Work";
     }
-    bool isStarted() const{
+    bool isStarted() const {
         return isRunning;
+    }
+    int getCountToRelax() const {
+        return countToRelax.load();
     }
 
 };
