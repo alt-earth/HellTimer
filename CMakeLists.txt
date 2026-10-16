@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 project(ImGuiGlfwExample CXX)
 
-
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -25,12 +24,17 @@ set(IMGUI_SOURCES
     ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
 )
 
-# 4. Создание исполняемого файла
-add_executable(${PROJECT_NAME} main.cpp ${IMGUI_SOURCES})
+# 4. Создание исполняемого файла (ДОБАВИЛИ core/audioEngine.cpp)
+add_executable(${PROJECT_NAME}
+    main.cpp
+    core/audioEngine.cpp  # <-- Добавили наш новый .cpp файл
+    ${IMGUI_SOURCES}
+)
 
-# 5. Указываем папки с хедерами
+# 5. Указываем папки с хедерами (ДОБАВИЛИ папку core)
 target_include_directories(${PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/core # <-- Чтобы компилятор видел audioEngine.hpp и miniaudio.h
     ${IMGUI_DIR}
     ${IMGUI_DIR}/backends
 )
@@ -41,5 +45,3 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     OpenGL::GL
     ${CMAKE_DL_LIBS}
 )
-
-

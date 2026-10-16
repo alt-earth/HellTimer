@@ -3,6 +3,7 @@ ImGuiGlfwExample: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/ImGuiGlfwExample.dir/main.cpp.o \
+  CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o \
   CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o \
   CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o \
   CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o \
@@ -63,6 +64,8 @@ ImGuiGlfwExample: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
 CMakeFiles/ImGuiGlfwExample.dir/main.cpp.o:
+
+CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o:
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o:
 

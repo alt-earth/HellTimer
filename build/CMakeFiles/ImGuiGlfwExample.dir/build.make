@@ -86,10 +86,24 @@ CMakeFiles/ImGuiGlfwExample.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGuiGlfwExample.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Projects/pomodoro_timer/main.cpp -o CMakeFiles/ImGuiGlfwExample.dir/main.cpp.s
 
+CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
+CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o: /home/user/Projects/pomodoro_timer/core/audioEngine.cpp
+CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o -c /home/user/Projects/pomodoro_timer/core/audioEngine.cpp
+
+CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Projects/pomodoro_timer/core/audioEngine.cpp > CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.i
+
+CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Projects/pomodoro_timer/core/audioEngine.cpp -o CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.s
+
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o: /home/user/Projects/pomodoro_timer/imgui/imgui.cpp
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o -c /home/user/Projects/pomodoro_timer/imgui/imgui.cpp
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o: /home/user/Projects/pomodoro_timer/imgui/imgui_demo.cpp
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o -c /home/user/Projects/pomodoro_timer/imgui/imgui_demo.cpp
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o: /home/user/Projects/pomodoro_timer/imgui/imgui_draw.cpp
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o -c /home/user/Projects/pomodoro_timer/imgui/imgui_draw.cpp
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o: /home/user/Projects/pomodoro_timer/imgui/imgui_tables.cpp
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.o -c /home/user/Projects/pomodoro_timer/imgui/imgui_tables.cpp
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o: /home/user/Projects/pomodoro_timer/imgui/imgui_widgets.cpp
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.o -c /home/user/Projects/pomodoro_timer/imgui/imgui_widgets.cpp
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_widgets.cpp.s: cmake_force
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o: /home/user/Projects/pomodoro_timer/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/user/Projects/pomodoro_timer/imgui/backends/imgui_impl_glfw.cpp
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.s: cmake_forc
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/flags.make
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o: /home/user/Projects/pomodoro_timer/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/ImGuiGlfwExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/user/Projects/pomodoro_timer/imgui/backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
@@ -187,6 +201,7 @@ CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_f
 # Object files for target ImGuiGlfwExample
 ImGuiGlfwExample_OBJECTS = \
 "CMakeFiles/ImGuiGlfwExample.dir/main.cpp.o" \
+"CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o" \
 "CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o" \
 "CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o" \
@@ -199,6 +214,7 @@ ImGuiGlfwExample_OBJECTS = \
 ImGuiGlfwExample_EXTERNAL_OBJECTS =
 
 ImGuiGlfwExample: CMakeFiles/ImGuiGlfwExample.dir/main.cpp.o
+ImGuiGlfwExample: CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o
 ImGuiGlfwExample: CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui.cpp.o
 ImGuiGlfwExample: CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_demo.cpp.o
 ImGuiGlfwExample: CMakeFiles/ImGuiGlfwExample.dir/imgui/imgui_draw.cpp.o
@@ -212,7 +228,7 @@ ImGuiGlfwExample: /usr/lib/libglfw.so.3.5
 ImGuiGlfwExample: /usr/lib/libGLX.so
 ImGuiGlfwExample: /usr/lib/libOpenGL.so
 ImGuiGlfwExample: CMakeFiles/ImGuiGlfwExample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ImGuiGlfwExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/user/Projects/pomodoro_timer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ImGuiGlfwExample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImGuiGlfwExample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

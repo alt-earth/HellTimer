@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user/Projects/pomodoro_timer -I/home/user/Projects/pomodoro_timer/imgui -I/home/user/Projects/pomodoro_timer/imgui/backends
+CXX_INCLUDES = -I/home/user/Projects/pomodoro_timer -I/home/user/Projects/pomodoro_timer/core -I/home/user/Projects/pomodoro_timer/imgui -I/home/user/Projects/pomodoro_timer/imgui/backends
 
 CXX_FLAGS = -std=gnu++17
 

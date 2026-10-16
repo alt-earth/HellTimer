@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ImGuiGlfwExample.dir/link.d"
+  "CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o"
+  "CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o.d"
   "CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o"
   "CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_glfw.cpp.o.d"
   "CMakeFiles/ImGuiGlfwExample.dir/imgui/backends/imgui_impl_opengl3.cpp.o"

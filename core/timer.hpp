@@ -3,6 +3,8 @@
 #include <atomic>
 #include <thread>
 #include <string>
+#include "audioEngine.hpp"
+
 class Timer{
 private:
         std::atomic<int>countToRelax{0};
@@ -11,6 +13,8 @@ private:
         std::atomic<bool>isRelaxed{false};
 
         std::thread timerThread;
+
+        AudioEngine audio;
 
         void run(){
             while(isRunning.load()){
@@ -22,12 +26,21 @@ private:
                 else{
                     if (!isRelaxed.load()){
                         countToRelax++;
+
+                        if (countToRelax.load() >= 4){
+                            seconds.store(1200);
+                            countToRelax.store(0);
+                        }
+                        else{
+                            seconds.store(300);
+                        }
                         isRelaxed.store(true);
-                        seconds.store(300);
+                        audio.play();
                     }
                     else{
                         isRelaxed.store(false);
                         seconds.store(1500);
+                        audio.play();
                     }
                 }
             }

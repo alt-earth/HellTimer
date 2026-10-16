@@ -129,6 +129,30 @@ ImGuiGlfwExample/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiGlfwExample.dir/build.make CMakeFiles/ImGuiGlfwExample.dir/build
 .PHONY : ImGuiGlfwExample/fast
 
+core/audioEngine.o: core/audioEngine.cpp.o
+.PHONY : core/audioEngine.o
+
+# target to build an object file
+core/audioEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiGlfwExample.dir/build.make CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.o
+.PHONY : core/audioEngine.cpp.o
+
+core/audioEngine.i: core/audioEngine.cpp.i
+.PHONY : core/audioEngine.i
+
+# target to preprocess a source file
+core/audioEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiGlfwExample.dir/build.make CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.i
+.PHONY : core/audioEngine.cpp.i
+
+core/audioEngine.s: core/audioEngine.cpp.s
+.PHONY : core/audioEngine.s
+
+# target to generate assembly for a file
+core/audioEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiGlfwExample.dir/build.make CMakeFiles/ImGuiGlfwExample.dir/core/audioEngine.cpp.s
+.PHONY : core/audioEngine.cpp.s
+
 imgui/backends/imgui_impl_glfw.o: imgui/backends/imgui_impl_glfw.cpp.o
 .PHONY : imgui/backends/imgui_impl_glfw.o
 
@@ -330,6 +354,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ImGuiGlfwExample"
+	@echo "... core/audioEngine.o"
+	@echo "... core/audioEngine.i"
+	@echo "... core/audioEngine.s"
 	@echo "... imgui/backends/imgui_impl_glfw.o"
 	@echo "... imgui/backends/imgui_impl_glfw.i"
 	@echo "... imgui/backends/imgui_impl_glfw.s"
