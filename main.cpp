@@ -29,8 +29,7 @@ int main(){
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO();
-    io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // Enable Keyboard Controls
-
+    io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
     io.Fonts->AddFontFromFileTTF("/usr/share/fonts/noto/NotoSans-Regular.ttf",
                                 18.0f, nullptr,
                                 io.Fonts->GetGlyphRangesCyrillic());
