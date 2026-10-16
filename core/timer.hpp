@@ -53,6 +53,7 @@ public:
     void start(){
         if (!isRunning.load()){
             isRunning.store(true);
+            audio.play();
             timerThread = std::thread(&Timer::run, this);
         }
     }
