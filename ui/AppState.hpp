@@ -39,7 +39,7 @@ namespace WindowState {
         int countRelax = time.getCountToRelax();
 
         bool isStarted = time.isStarted();
-        std::string status = isStarted ? time.getStatus() : "SYSTEM IDLE / SACRIFICE REQUIRED";
+        std::string status = isStarted ? time.getStatus() : " ";
 
         float winW = ImGui::GetWindowWidth();
         float winH = ImGui::GetWindowHeight();
