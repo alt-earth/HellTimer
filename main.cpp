@@ -31,11 +31,7 @@ int main(){
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO();
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
-    #ifdef _WIN32
-    io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\arial.ttf", 25.0f, nullptr, io.Fonts->GetGlyphRangesCyrillic());
-    #else
-    io.Fonts->AddFontFromFileTTF("/usr/share/fonts/noto/NotoSans-Regular.ttf", 25.0f, nullptr, io.Fonts->GetGlyphRangesCyrillic());
-    #endif
+    io.Fonts->AddFontFromFileTTF("assets/font/SinisterSunday.ttf", 35.0f, nullptr, io.Fonts->GetGlyphRangesCyrillic());
 
 
     ImGui_ImplGlfw_InitForOpenGL(window, true);
