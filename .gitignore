@@ -6,6 +6,6 @@ cmake_install.cmake
 Makefile
 /.vs
 imgui.ini
-
+CMakeSettings.json
 .DS_Store
 Thumbs.db
